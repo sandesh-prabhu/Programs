@@ -20,3 +20,6 @@ land.prototype.getStatus=function(){
 }
 let area51=new land()
 area51.setParam("1360 sq.m.").setOpen().getStatus().setClose().getStatus()
+
+
+console.log('sandesh')
