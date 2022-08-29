@@ -15,3 +15,11 @@ let obj2=JSON.parse(text,(key,value)=>{
 })
 
 console.log(obj2.gender+" is "+obj2.name)
+
+
+let obj3={State:"Karnataka",City:{Name:"Udupi",Code:20}}
+let obj4=JSON.parse(JSON.stringify(obj3))
+obj4.City.Code=21
+console.log(obj3)
+console.log(obj4)
+console.log(typeof(JSON.stringify(obj3)))
